@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_offers",
+  "info": {
+    "singularName": "main-offer",
+    "pluralName": "main-offers",
+    "displayName": "Main Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bonus": {
+      "type": "integer",
+      "required": true
+    },
+    "BonusText": {
+      "type": "string",
+      "required": true
+    },
+    "Spins": {
+      "type": "integer",
+      "required": true
+    },
+    "SpinsText": {
+      "type": "string",
+      "required": true
+    },
+    "GameName": {
+      "type": "string",
+      "required": true
+    },
+    "Terms": {
+      "type": "text",
+      "required": true
+    },
+    "HomeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "Currency": {
+      "type": "enumeration",
+      "enum": [
+        "£ - GBP",
+        "€ - Euro",
+        "$ - Dollar",
+        "% - Percentage"
+      ],
+      "required": true
+    }
+  }
+}

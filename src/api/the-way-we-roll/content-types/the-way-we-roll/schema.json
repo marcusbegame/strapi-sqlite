@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "the_way_we_rolls",
+  "info": {
+    "singularName": "the-way-we-roll",
+    "pluralName": "the-way-we-rolls",
+    "displayName": "The Way We Roll"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
