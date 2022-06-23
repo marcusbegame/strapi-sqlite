@@ -12,9 +12,13 @@
   "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-i18n": "4.2.0",
-    "@strapi/strapi": "4.2.0",
+    "@strapi/plugin-seo": "^1.7.3",
     "@strapi/plugin-users-permissions": "4.2.0",
-    "sqlite3": "^5.0.2"
+    "@strapi/strapi": "4.2.0",
+    "better-sqlite3": "7.4.6",
+    "strapi-plugin-duplicate-button": "^1.0.4",
+    "strapi-plugin-local-image-sharp": "^1.1.0",
+    "strapi-plugin-slugify": "^2.2.2"
   },
   "author": {
     "name": "A Strapi developer"
@@ -23,7 +27,7 @@
     "uuid": "b4a9b934-98e8-401e-9f60-ad3319a3e359"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
